@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Login</title>
+	
+<style type="text/css">
+
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		background: #595959;
+		 }
+
+	.box {
+		width: 300px;
+		height: 280px;
+		padding: 30px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: #ffc999;
+		text-align: center;
+		border-radius: 30px;
+	     }
+	
+	.box legend {
+		color: red;
+		font-size: 50px;
+		text-transform: uppercase ;
+		font-weight: 500;
+	     }
+
+	.box input[type ="text"], .box input[ type ="password"] {
+		border: 0;
+		background: white;
+		margin: 20px auto;
+		text-align: center;
+		border: 2px solid #e60000 ;
+		width: 200px;
+		border-radius: 24px;
+		transition: 0.25px;	
+	}
+
+    .box input[type ="submit"] {
+    	border: 0;
+    	font-size: 15px;
+    	font-weight: 500;
+		background:#ffb3b3;
+		margin: 15px auto;
+		text-align: center;
+		border: 2px solid #1a0000  ;
+		padding: 14px ;
+		width: 100px;
+		font-weight: 700;
+		border-radius: 12px;
+		transition: 0.25s;
+		cursor: pointer;	
+
+    }
+
+</style>
+
+
+</head>
+<body>
+	
+		<form class="box"> 
+		<legend class="login">Log In </legend> <br>
+
+		<label> <b>Username: </b> <input type="text" name="Username"></label> <br>
+
+		<label> <b>Password: </b> <input type="Password" name="Password">  </label> <br>
+
+		<input   type="Submit" value="Submit"> 
+
+	    </form>
+
+</body>
+</html>
